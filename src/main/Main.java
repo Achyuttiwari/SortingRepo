@@ -13,6 +13,6 @@ public class Main {
             array[i] = (int)(Math.random() * 100);
         }
         System.out.println("Unsorted Array");
-
+        System.out.println(Arrays.toString(array));
     }
 }
