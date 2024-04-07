@@ -8,6 +8,7 @@ public class Main {
         System.out.println("How many elements would you like in the array?: ");
         final Scanner scanner  = new Scanner(System.in);
         int sizeOfArray = scanner.nextInt();
+        int[] array = new int[sizeOfArray];
 
     }
 }
