@@ -1,5 +1,7 @@
 package main;
 
+import bubbleSort.BubbleSort;
+
 import java.util.Arrays;
 import java.util.Scanner;
 
@@ -18,6 +20,7 @@ public class Main {
         int choice = scanner.nextInt();
         switch(choice){
             case 1: /*BUBBLE SORT*/
+                BubbleSort bubblesort = new BubbleSort();
         }
     }
 }
