@@ -17,7 +17,7 @@ public class Main {
         System.out.println("Press 1 to sort this array using Bubble sort..!!");
         int choice = scanner.nextInt();
         switch(choice){
-
+            case 1: /*BUBBLE SORT*/
         }
     }
 }
