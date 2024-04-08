@@ -7,10 +7,14 @@ public class BubbleSort {
         for (int i = 0; i < array.length; i++) {
             for (int j = 0; j < array.length - 1; j++) {
                 if (choiceForSorting == 1) sortDescendingOrder(array, j);
-
+                else sortAscendingOrder(array, j);
             }
 
         }
+    }
+
+    private void sortAscendingOrder(int[] array, int j) {
+
     }
 
     private void sortDescendingOrder(int[] array, int j) {
