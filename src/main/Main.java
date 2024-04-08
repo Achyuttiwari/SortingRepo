@@ -2,6 +2,7 @@ package main;
 
 import bubbleSort.BubbleSort;
 
+import java.sql.SQLOutput;
 import java.util.Arrays;
 import java.util.Scanner;
 
@@ -23,7 +24,7 @@ public class Main {
                 BubbleSort bubblesort = new BubbleSort();
                 bubblesort.sort(array, (int) Math.ceil(Math.random()));
                 System.out.println("ARRAY SORTED BY BUBBLE SORT");
-
+                System.out.println(Arrays.toString(array));
         }
 
 
