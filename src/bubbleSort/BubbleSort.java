@@ -16,6 +16,7 @@ public class BubbleSort {
     private void sortDescendingOrder(int[] array, int j) {
         if (array[j + 1] > array[j]){
 
+
         }
     }
 }
