@@ -24,5 +24,8 @@ public class Main {
                 bubblesort.sort(array, (int) Math.ceil(Math.random()));
 
         }
+
+
+        scanner.close();
     }
 }
