@@ -9,7 +9,6 @@ public class BubbleSort {
                 if (choiceForSorting == 1) sortDescendingOrder(array, j);
                 else sortAscendingOrder(array, j);
             }
-
         }
     }
 
