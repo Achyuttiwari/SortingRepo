@@ -25,6 +25,9 @@ public class Main {
                 bubblesort.sort(array, (int) Math.ceil(Math.random()));
                 System.out.println("ARRAY SORTED BY BUBBLE SORT");
                 System.out.println(Arrays.toString(array));
+                break;
+            case 2: /*Selection Sort*/
+
         }
 
 
