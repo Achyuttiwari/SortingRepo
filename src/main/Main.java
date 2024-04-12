@@ -29,6 +29,7 @@ public class Main {
                 break;
             case 2: /*Selection Sort*/
                 SelectionSort selectionsort = new SelectionSort();
+                selectionsort.sort(array, (int) Math.ceil(Math.random()));
         }
 
 
