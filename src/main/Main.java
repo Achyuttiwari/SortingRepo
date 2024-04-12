@@ -1,6 +1,7 @@
 package main;
 
 import bubbleSort.BubbleSort;
+import selectionSort.SelectionSort;
 
 import java.sql.SQLOutput;
 import java.util.Arrays;
@@ -27,7 +28,7 @@ public class Main {
                 System.out.println(Arrays.toString(array));
                 break;
             case 2: /*Selection Sort*/
-
+                SelectionSort selectionsort = new SelectionSort();
         }
 
 
