@@ -30,6 +30,8 @@ public class Main {
             case 2: /*Selection Sort*/
                 SelectionSort selectionsort = new SelectionSort();
                 selectionsort.sort(array);
+                System.out.println("ARRAY SORTED BY SELECTION SORT:");
+
         }
 
 
