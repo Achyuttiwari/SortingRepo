@@ -31,7 +31,6 @@ public class Main {
                 SelectionSort selectionsort = new SelectionSort();
                 selectionsort.sort(array);
                 System.out.println("ARRAY SORTED BY SELECTION SORT:");
-
         }
 
 
