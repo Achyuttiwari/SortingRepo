@@ -9,6 +9,7 @@ public class SelectionSort {
             }
 
         swap(array, fill, poseMin);
+
     }
     }
     private void swap(int[] array, int fill, int poseMin){
