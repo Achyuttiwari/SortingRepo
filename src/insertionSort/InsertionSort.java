@@ -9,6 +9,7 @@ public class InsertionSort {
     }
 
     static void insert(int[] array, int nextIndex) {
+        int nextValue = array[nextIndex];
     }
 
 }
