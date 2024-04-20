@@ -34,6 +34,7 @@ public class Main {
                 selectionsort.sort(array);
                 System.out.println("ARRAY SORTED BY SELECTION SORT:");
                 break;
+            case 3: /*Insertion Sort*/
         }
 
 
