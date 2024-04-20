@@ -1,6 +1,7 @@
 package main;
 
 import bubbleSort.BubbleSort;
+import insertionSort.InsertionSort;
 import selectionSort.SelectionSort;
 
 import java.sql.SQLOutput;
@@ -35,6 +36,7 @@ public class Main {
                 System.out.println("ARRAY SORTED BY SELECTION SORT:");
                 break;
             case 3: /*Insertion Sort*/
+                InsertionSort insertionSort = new InsertionSort();
         }
 
 
