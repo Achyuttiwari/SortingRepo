@@ -18,7 +18,6 @@ public class BubbleSort {
             array[j + 1] = temp;
         }
     }
-
     private void sortDescendingOrder(int[] array, int j) {
         if (array[j + 1] > array[j]){
             int temp = array[j];
