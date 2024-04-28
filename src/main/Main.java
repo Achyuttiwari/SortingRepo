@@ -2,6 +2,7 @@ package main;
 
 import bubbleSort.BubbleSort;
 import insertionSort.InsertionSort;
+import mergeSort.MergeSort;
 import selectionSort.SelectionSort;
 
 import java.sql.SQLOutput;
@@ -41,6 +42,7 @@ public class Main {
                 insertionSort.sort(array);
                 break;
             case 4: /*Merge Sort*/
+                MergeSort mergeSort = new MergeSort();
         }
 
 
