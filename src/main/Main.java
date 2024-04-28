@@ -40,7 +40,7 @@ public class Main {
                 InsertionSort insertionSort = new InsertionSort();
                 insertionSort.sort(array);
                 break;
-            case 4:
+            case 4: /*Merge Sort*/
         }
 
 
