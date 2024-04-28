@@ -44,6 +44,7 @@ public class Main {
             case 4: /*Merge Sort*/
                 MergeSort mergeSort = new MergeSort();
                 mergeSort.sort(array, sizeOfArray);
+                System.out.println(Arrays.toString(array));
         }
 
 
