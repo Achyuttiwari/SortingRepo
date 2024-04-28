@@ -43,6 +43,7 @@ public class Main {
                 break;
             case 4: /*Merge Sort*/
                 MergeSort mergeSort = new MergeSort();
+                mergeSort.sort(array, sizeOfArray);
         }
 
 
