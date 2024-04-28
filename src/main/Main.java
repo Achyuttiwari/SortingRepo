@@ -39,6 +39,7 @@ public class Main {
             case 3: /*Insertion Sort*/
                 InsertionSort insertionSort = new InsertionSort();
                 insertionSort.sort(array);
+                break;
         }
 
 
