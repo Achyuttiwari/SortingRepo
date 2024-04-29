@@ -6,6 +6,7 @@ public class MergeSort {
 
         if (sizeOfArray > 1) {
             int halfSize = sizeOfArray / 2;
+
         }
     }
 }
