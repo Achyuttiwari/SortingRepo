@@ -9,6 +9,7 @@ public class MergeSort {
 
             int[] leftArray = new int[halfSize];
             int[] rightArray = new int[sizeOfArray - halfSize];
+
         }
     }
 }
