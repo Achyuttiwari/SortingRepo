@@ -14,7 +14,7 @@ public class MergeSort {
             System.arraycopy(array, halfSize, rightArray, 0,
                     sizeOfArray - halfSize);
 
-            sort(leftArray, leftArray.length);  {x}
+            sort(leftArray, leftArray.length);  //{x}
             sort(rightArray, rightArray.length);
         }
     }
