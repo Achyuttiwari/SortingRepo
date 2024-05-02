@@ -13,6 +13,8 @@ public class MergeSort {
             System.arraycopy(array, 0, leftArray, 0, halfSize);
             System.arraycopy(array, halfSize, rightArray, 0,
                     sizeOfArray - halfSize);
+
+            sort(leftArray, leftArray.length);
         }
     }
 }
