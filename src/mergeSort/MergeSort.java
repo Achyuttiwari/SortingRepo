@@ -9,6 +9,8 @@ public class MergeSort {
 
             int[] leftArray = new int[halfSize];
             int[] rightArray = new int[sizeOfArray - halfSize];
+
+            System.arraycopy(array, 0, leftArray, 0, halfSize);
         }
     }
 }
