@@ -17,7 +17,8 @@ public class MergeSort {
             sort(leftArray, leftArray.length);  //{x}
             sort(rightArray, rightArray.length);  //{y}
 
-            merge(array, leftArray, rightArray);
+            merge(array, leftArray, rightArray);   //({ x, y }, { x }, { y }})
         }
     }
+
 }
