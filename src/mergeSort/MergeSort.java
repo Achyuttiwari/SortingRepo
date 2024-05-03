@@ -25,6 +25,7 @@ public class MergeSort {
     private static void merge(int[] array, int[] leftArray, int[] rightArray) {
         int i = 0;       //for leftArray
         int j = 0;       //for rightArray
+        int k = 0;
 
     }
 
