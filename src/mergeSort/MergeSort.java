@@ -22,6 +22,7 @@ public class MergeSort {
     }
 
     private static void merge(int[] array, int[] leftArray, int[] rightArray) {
+
     }
 
 }
