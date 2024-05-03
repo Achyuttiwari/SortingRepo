@@ -23,7 +23,7 @@ public class MergeSort {
 
     // merge({x, y}, l {x}, r {y})
     private static void merge(int[] array, int[] leftArray, int[] rightArray) {
-        int i = 0;
+        int i = 0;       //for leftArray
 
     }
 
