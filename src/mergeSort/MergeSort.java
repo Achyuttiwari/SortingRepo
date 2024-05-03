@@ -21,6 +21,7 @@ public class MergeSort {
         }
     }
 
+    // merge({x, y}, l {x}, r {y})
     private static void merge(int[] array, int[] leftArray, int[] rightArray) {
 
     }
