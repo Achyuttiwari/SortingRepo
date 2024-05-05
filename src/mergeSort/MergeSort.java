@@ -22,11 +22,10 @@ public class MergeSort {
     }
 
     // merge({x, y}, l {x}, r {y})
-    private static void merge(int[] array, int[] leftArray, int[] rightArray) {
+    private static void merge(int[] outputArray, int[] leftArray, int[] rightArray) {
         int i = 0;       //for leftArray
         int j = 0;       //for rightArray
         int k = 0;       //for outputArray
-
 
     }
 
