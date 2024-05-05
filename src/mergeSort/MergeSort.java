@@ -28,9 +28,8 @@ public class MergeSort {
         int k = 0;       //for outputArray
 
         while(i < leftArray.length && j < rightArray.length ){
-            if(leftArray[i] < rightArray[j]){
-
-            }
+            if(leftArray[i] < rightArray[j])
+                outputArray[k++] = leftArray[i++];
         }
     }
 
