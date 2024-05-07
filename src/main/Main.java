@@ -24,6 +24,7 @@ public class Main {
         System.out.println("Press 2 to sort this array in Selection Sort.!!");
         System.out.println("Press 3 to sort this array in Insertion Sort.!!");
         System.out.println("Press 4 to sort this array in Merge Sort.!!");
+        System.out.println("Press 5 to sort this array in Quick Sort.!!");
         int choice = scanner.nextInt();
         switch(choice){
             case 1: /*BUBBLE SORT*/
