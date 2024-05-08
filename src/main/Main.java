@@ -47,6 +47,7 @@ public class Main {
                 mergeSort.sort(array, sizeOfArray);
                 System.out.println(Arrays.toString(array));
                 break;
+            case 5: /* Quick Sort */
         }
 
 
