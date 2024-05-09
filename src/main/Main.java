@@ -4,6 +4,7 @@ import bubbleSort.BubbleSort;
 import insertionSort.InsertionSort;
 import mergeSort.MergeSort;
 import selectionSort.SelectionSort;
+import quickSort.QuickSort;
 
 import java.sql.SQLOutput;
 import java.util.Arrays;
