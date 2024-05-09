@@ -49,7 +49,8 @@ public class Main {
                 System.out.println(Arrays.toString(array));
                 break;
             case 5: /* Quick Sort */
-                QuickSort quickSort = new Quicksort();
+                QuickSort.sort(array, 0, sizeOfArray - 1);
+
         }
 
 
