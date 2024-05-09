@@ -50,6 +50,7 @@ public class Main {
                 break;
             case 5: /* Quick Sort */
                 QuickSort.sort(array, 0, sizeOfArray - 1);
+                System.out.println("ARRAY SORTED BY USING QUICK SORT");
 
         }
 
