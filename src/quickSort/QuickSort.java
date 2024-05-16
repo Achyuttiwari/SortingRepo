@@ -21,7 +21,8 @@ public class QuickSort {
             }
         }
 
-
+        swap(array, partitionIndex, rightIndex);
+        return partitionIndex;
     }
 
     private static void swap(int[] array, int i, int j) {
