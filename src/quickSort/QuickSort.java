@@ -11,5 +11,10 @@ public class QuickSort {
                 swap(array, i, partitionIndex);
                 partitionIndex++;
             }
+        }
+    }
+
+    private static void swap(int[] array, int i, int partitionIndex) {
+
     }
 }
