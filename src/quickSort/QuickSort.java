@@ -5,5 +5,11 @@ public class QuickSort {
         int pivot = rightIndex;
 
         int partitionIndex = leftIndex;
+
+        for (int i = leftIndex; i < rightIndex; i++) {
+            if (array[i] <= pivot) {
+                swap(array, i, partitionIndex);
+                partitionIndex++;
+            }
     }
 }
