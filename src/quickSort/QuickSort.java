@@ -20,7 +20,6 @@ public class QuickSort {
                 partitionIndex++;
             }
         }
-
         swap(array, partitionIndex, rightIndex);
         return partitionIndex;
     }
