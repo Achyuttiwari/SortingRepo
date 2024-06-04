@@ -54,7 +54,7 @@ public class Main {
                 System.out.println("ARRAY SORTED BY USING QUICK SORT");
                 System.out.println(Arrays.toString(array));
                 break;
-
+            case 6: /*Heap Sort*/
         }
 
 
