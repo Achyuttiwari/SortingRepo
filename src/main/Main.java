@@ -1,6 +1,7 @@
 package main;
 
 import bubbleSort.BubbleSort;
+import heapSort.HeapSort;
 import insertionSort.InsertionSort;
 import mergeSort.MergeSort;
 import selectionSort.SelectionSort;
@@ -55,6 +56,7 @@ public class Main {
                 System.out.println(Arrays.toString(array));
                 break;
             case 6: /*Heap Sort*/
+                HeapSort.sort(array);
         }
 
 
